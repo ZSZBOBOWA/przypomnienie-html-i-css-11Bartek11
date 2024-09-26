@@ -2,14 +2,23 @@ header,footer,nav{
     width: 100%;
 }
 header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 32px;
+    font-family: Arial,sans-serif;
     height: 120px;
     background-color: #1E90FF;
 }
 nav{
+    
     height: 40px;
     background-color: #4682B4;
 }
 main{
+    font-size: 16px;
+    color: #000080;
+    padding: 20px;
     width: 70%;
     min-height: 400px;
     background-color: #F0F8FF;
@@ -21,7 +30,19 @@ aside{
     background-color: #B0C4DE;
     float: right;
 }
+
+nav a:hover{
+    background-color: #ADD8E6;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 60px;
     background-color: #1E90FF;
+    font-size: 14px;
 }
