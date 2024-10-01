@@ -1,0 +1,29 @@
+nav, main, aside, footer {
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+nav{
+    height: 400px;
+    background-color: #963;
+    width: 30%;
+    float: left;
+}
+main{
+    height: 400px;
+    background-color: #369;
+    width: 50%;
+    float: left;
+}
+aside{
+    height: 400px;
+    background-color: #639;
+    width: 20%;
+    float: right;
+}
+footer{
+    height: 60px;
+    clear:both;
+    background-color: #936;
+}
