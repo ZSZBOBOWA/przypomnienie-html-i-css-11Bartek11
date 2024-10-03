@@ -44,21 +44,44 @@ nav{
 }
 
 table{
+    background-color: #FA0;
     margin-left: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-collapse: collapse;
     width: 95%;
 }
-.tb td, th{
-    border: 2px solid black;
-    padding: 5px;
+table, th{
+    border: 2px, solid, #FFC500;
+    padding: 10px;
+}
+.tb td{
+    border: 1px solid #FFC500;;
+    padding: 10px;
 }
 tr:hover{
-    background-color: #0ff0f0;
+    background-color: #F80;
 }
 tr:nth-child(even):hover{
-    background-color: #60f0A0;
+    background-color: #ffFF37;
 }
 tr:nth-child(even){
-    background-color: #0ff0f0;
+    background-color: #ffFF80;
+}
+.tb h1{
+    text-align: center;
+}
+.tb img{
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+}
+.tb{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tb a{
+    text-decoration: none;
+    color: #000;
 }
