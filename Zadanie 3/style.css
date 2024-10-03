@@ -12,12 +12,13 @@ main, aside{
 }
 
 aside{
+    height: 225px;
     background-color: #90f0f0;
     width: 30%;
     float: left;
 }
 main{
-    background-color: #f090f0;
+    background-color: #60f0A0;
     width: 70%;
     float: right;
 }
@@ -25,4 +26,39 @@ footer{
     background-color: #90f090;
     clear: both;
     height: 50px;
+}
+.menu{
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: #A0f060;
+    height: 450px;
+    float: left;
+    width: 30%;
+}
+
+table{
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+}
+.tb td, th{
+    border: 2px solid black;
+    padding: 5px;
+}
+tr:hover{
+    background-color: #0ff0f0;
+}
+tr:nth-child(even):hover{
+    background-color: #60f0A0;
+}
+tr:nth-child(even){
+    background-color: #0ff0f0;
 }
