@@ -1,0 +1,28 @@
+header, main, aside, footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header{
+    background-color: #f0f090;
+    height:100px ;
+}
+main, aside{
+    height:450px;
+}
+
+aside{
+    background-color: #90f0f0;
+    width: 30%;
+    float: left;
+}
+main{
+    background-color: #f090f0;
+    width: 70%;
+    float: right;
+}
+footer{
+    background-color: #90f090;
+    clear: both;
+    height: 50px;
+}
