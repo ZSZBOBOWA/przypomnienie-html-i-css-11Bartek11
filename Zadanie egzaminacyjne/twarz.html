@@ -5,7 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salon kosmetyczny</title>
     <link href="styl7.css" rel="stylesheet">
-    <link href="">
+    <script>
+        var peel = document.getElementById("Peeling");
+        var maska = document.getElementById("Maska");
+        var masaz = document.getElementById("Masaz twarzy");
+        var makijaz = document.getElementById("Makijaz");
+        function f(){
+            var cena = 0;
+            if(peel.checked){
+                cena += 50;
+            }
+            if(maska.checked){
+                cena += 30;
+            }
+            if(masaz.checked){
+                cena += 40;
+            }
+            if(makijaz.checked){
+                cena += 60;
+            }
+            document.getElementById("wypisz").innerHTML="Cena zabigów: "+cena;
+        }
+    </script>
 </head>
 <body>
 
@@ -30,6 +51,7 @@
     <div><input type="checkbox" value="Masaż twarzy"><label>Masaż twarzy</label></div>
     <div><input type="checkbox" value="Makijaż"><label>Makijaż</label></div>
     <button onclick="f()">Oblicz cenę</button>
+    <div id="wypisz"></div>
     </main>
     <aside> <img src="obraz1.jpg" alt="Personel"></aside>
     <footer><p>Autor: 00000000000</p></footer>

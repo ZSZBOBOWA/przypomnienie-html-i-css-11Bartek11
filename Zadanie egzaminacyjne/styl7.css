@@ -21,7 +21,7 @@ img{
 .mr{
     margin-left: 25px;
 }
-img:hover{
+main img:hover{
     padding: 3px;
     border: 1px dashed indigo;
 }
