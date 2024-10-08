@@ -1,8 +1,15 @@
+*:not(h2):not(p) {
+    margin: auto;
+    padding: auto;
+}
+body {
+    font-family: Garamond, serif;
+}
+
 header, nav, main, aside, footer {
     margin: 0;
     padding: 0;
     width: 100%;
-    font-family: Garaamond, sans-serif;
     text-align: center;
 }
 nav{
@@ -40,7 +47,7 @@ footer{
     clear: both;
 }
 img{
-    width: 180px;
+    width:140px;
     border: 1px dashed #8C7B75;
     padding: 5px;
     border-radius: 10%;
